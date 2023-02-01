@@ -1,0 +1,32 @@
+{
+    "status": "ok",
+    "totalResults": 11981,
+    "articles": [
+  {
+    "source": {
+    "id": "newsweek",
+    "name": "Newsweek"
+    },
+    "author": "Eileen Falkenberg-Hull",
+    "title": "Ford's Lower-cost EVs Play Into Biden's Infrastructure Reduction Act Plans",
+    "description": "Tesla competition aside, there's another likely reason Ford is lowering it's electric vehicle prices.",
+    "url": "https://www.newsweek.com/fords-lower-cost-evs-play-bidens-infrastructure-reduction-act-plans-1777646",
+    "urlToImage": "https://d.newsweek.com/en/full/1882694/2021-ford-mustang-mach-e.jpg",
+    "publishedAt": "2023-02-01T01:19:23Z",
+    "content": "Ford is increasing its Mustang Mach-E electric vehicle (EV) production in 2023 and decreasing prices in response to the numerous business environment factors. Tesla recently reduced the prices of its… [+2572 chars]"
+  },
+  {
+    "source": {
+    "id": "breitbart-news",
+    "name": "Breitbart News"
+    },
+    "author": "Allum Bokhari, Allum Bokhari",
+    "title": "DOJ Demands Documents Related to Tesla's 'Self Driving' Feature",
+    "description": "The Department of Justice is seeking documents related to the self-driving feature in Tesla cars, the electric automaker revealed in filings today.",
+    "url": "https://www.breitbart.com/tech/2023/01/31/doj-demands-documents-related-to-teslas-self-driving-feature/",
+    "urlToImage": "https://media.breitbart.com/media/2021/09/Elon-Musk-watches-SpaceX-launch-640x335.jpg",
+    "publishedAt": "2023-01-31T19:38:24Z",
+    "content": "The Department of Justice is seeking documents related to the self-driving feature in Tesla cars, the electric automaker revealed in filings today.\r\nThe request is part of the criminal probe the DOJ … [+2125 chars]"
+  }
+  ]
+}
