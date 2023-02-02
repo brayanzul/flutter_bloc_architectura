@@ -19,7 +19,7 @@ class NewProvider {
     : _httpClient = httpClient ?? http.Client();
 
   Future<List<Article>> topHeadlines(String country) async {
-    final result = await _callGetAPI(
+    final result = await _callGetAPi(
       endpoint: _topHeadlines, 
       params: {
         'country': country,
@@ -29,7 +29,7 @@ class NewProvider {
     return result.articles!;
   }
 
-  Future<ApiResponse> _callGetAPI({
+  Future<ApiResponse> _callGetAPi({
     required String endpoint,
     required Map<String, String> params,
   }) async {
@@ -38,11 +38,12 @@ class NewProvider {
     final response = await _httpClient.get(uri);
     final result = ApiResponse.fromJson(json.decode(response.body));
 
-    if(result.status == 'error') {
-      if(result.code == 'apikeyMissing') throw MissingApiKeyException();
-      if(result.code == 'apikeyInvalid') throw ApiKeyInvalidException();
+    if (result.status == 'error') {
+      if (result.code == 'apiKeyMissing') throw MissingApiKeyException();
+      if (result.code == 'apiKeyInvalid') throw ApiKeyInvalidException();
       throw Exception();
     }
+
     return result;
   }
 
