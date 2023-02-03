@@ -9,9 +9,9 @@ class MissingApiKeyException implements Exception{}
 class ApiKeyInvalidException implements Exception{}
 
 class NewProvider {
-  static const String _apiKey = 'xxxxxx';
+  static const String _apiKey = '1abc9d39619b4d0ea4cc9877d5525e4c';
   static const String _baseUrl = 'newsapi.org';
-  static const String _topHeadlines = 'v2/everything';
+  static const String _topHeadlines = '/v2/top-headlines';
 
   final http.Client _httpClient;
 
