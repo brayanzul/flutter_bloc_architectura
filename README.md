@@ -1,5 +1,10 @@
 # flutter_bloc_architectura
 
+![Captura009](https://user-images.githubusercontent.com/62777613/216666126-33cb59e2-dce8-437f-a87c-96a45875c9fb.PNG)
+
+![Captura010](https://user-images.githubusercontent.com/62777613/216666158-33b62b05-8b80-4373-9a72-e6cc674b0ab3.PNG)
+
+
 A new Flutter project.
 
 ## Getting Started
